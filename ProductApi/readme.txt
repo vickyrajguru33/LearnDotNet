@@ -12,3 +12,9 @@ Project Structure :
         ├── ProductDbContext.cs  <-- Add this
         ├── ProductController.cs <-- Add this
 
+Install the PostgreSQL provider:(It enables your C# Entity Framework Core app to interact with PostgreSQL, mapping models to tables and supporting LINQ, migrations, and code-first database creation.)
+    dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+
+Write Product.cs Entity class..with all properties
+write ProductDbContext to connect and configure DB with Parant class ProductDbContext
+Configure PostgreSQL in appsettings.json

@@ -17,7 +17,7 @@ public class ProductDbContext : DbContext {
     // DbContextOptions	    Configures which DB to use and how
     // DbSet<Product>	    Represents a table of products
     
-     public ProductDbContext(DBContextOptions<ProductDbContext> options)
+     public ProductDbContext(DbContextOptions<ProductDbContext> options)
         : base(options)
         {
     }

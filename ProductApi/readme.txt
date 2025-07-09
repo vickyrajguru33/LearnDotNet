@@ -18,3 +18,10 @@ Install the PostgreSQL provider:(It enables your C# Entity Framework Core app to
 Write Product.cs Entity class..with all properties
 write ProductDbContext to connect and configure DB with Parant class ProductDbContext
 Configure PostgreSQL in appsettings.json
+Register DbContext in Program.cs
+
+add PostgreSQL packages : 
+    dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+
+Write logic in Controllers  
+    
